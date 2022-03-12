@@ -1,0 +1,230 @@
+Hi, your mission is to find three important items(apple, helmet, body armor) and bring them to destenation. All found items will be in your backpack
+U're able to talk with characters, take their items or take items on different locations. And also move through locations
+Good luck!
+
+
+Rinok Squere
+The centre of Lviv
+--------------------
+The Volonteer centre is east
+The Stryi park is north
+
+
+There is a(an) apple here, the fresh food which will certanly be useful. You can take it
+
+
+Ivan is here!
+A young UCU student that is always ready to help
+> talk
+
+
+[Ivan]: Hi, I can help you. You can visit UCU and get some help. You can go there from the Stryi park
+
+
+Rinok Squere
+The centre of Lviv
+--------------------
+The Volonteer centre is east
+The Stryi park is north
+
+
+There is a(an) apple here, the fresh food which will certanly be useful. You can take it
+
+
+Ivan is here!
+A young UCU student that is always ready to help
+> take
+
+
+You put the apple in your backpack
+
+
+Rinok Squere
+The centre of Lviv
+--------------------
+The Volonteer centre is east
+The Stryi park is north
+
+
+Ivan is here!
+A young UCU student that is always ready to help
+> east
+
+
+Volonteer centre
+A place where all volonteers come together
+--------------------
+The Rinok Squere is west
+The Stryi park is east
+The Destenation is north
+
+
+There is a(an) helmet here, the new military helmet. You can take it
+
+
+Volonteer is here!
+A guy who is ready to help you
+
+
+He has a volonteer key, the key that allows to go to the volonteer centre
+> take from friend
+
+
+You put the volonteer key in your backpack
+
+
+Volonteer centre
+A place where all volonteers come together
+--------------------
+The Rinok Squere is west
+The Stryi park is east
+The Destenation is north
+
+
+There is a(an) helmet here, the new military helmet. You can take it
+
+
+Volonteer is here!
+A guy who is ready to help you
+> take
+
+
+You put the helmet in your backpack
+
+
+Volonteer centre
+A place where all volonteers come together
+--------------------
+The Rinok Squere is west
+The Stryi park is east
+The Destenation is north
+
+
+Volonteer is here!
+A guy who is ready to help you
+> west
+
+
+Rinok Squere
+The centre of Lviv
+--------------------
+The Volonteer centre is east
+The Stryi park is north
+
+
+Ivan is here!
+A young UCU student that is always ready to help
+> north
+
+
+Stryi park
+A huge park in Lviv
+--------------------
+The Rinok Squere is south
+The Volonteer centre is west
+The UCU is ???
+
+
+Stranger is here!
+An old unkown man. You can ask him a direction
+> talk
+
+
+[Stranger]: Good day! I can tell you the direction if you need
+
+
+Stryi park
+A huge park in Lviv
+--------------------
+The Rinok Squere is south
+The Volonteer centre is west
+The UCU is north
+
+
+Stranger is here!
+An old unkown man. You can ask him a direction
+> talk
+
+
+[Stranger]: Good day! I can tell you the direction if you need
+
+
+Stryi park
+A huge park in Lviv
+--------------------
+The Rinok Squere is south
+The Volonteer centre is west
+The UCU is north
+
+
+Stranger is here!
+An old unkown man. You can ask him a direction
+> north
+
+
+UCU
+A great university that is always ready to help
+--------------------
+The Stryi park is south
+
+
+There is a(an) body armor here, the new military body armor. You can take it
+> take
+
+
+You put the body armor in your backpack
+
+
+UCU
+A great university that is always ready to help
+--------------------
+The Stryi park is south
+> south
+
+
+Stryi park
+A huge park in Lviv
+--------------------
+The Rinok Squere is south
+The Volonteer centre is west
+The UCU is north
+
+
+Stranger is here!
+An old unkown man. You can ask him a direction
+> west
+
+
+Volonteer centre
+A place where all volonteers come together
+--------------------
+The Rinok Squere is west
+The Stryi park is east
+The Destenation is north
+
+
+Volonteer is here!
+A guy who is ready to help you
+> north
+
+
+Blockpost
+Here policemen have to check your documents and permissions
+--------------------
+The Volonteer centre is west
+
+
+Policeman is here!
+A kind policeman
+> talk
+
+
+[Policeman]: You need a permission to leave the city
+[You]: Yes
+[Policeman]: Okey, have a nice trip!
+
+
+You have finished your mission!
+
+
+:)
