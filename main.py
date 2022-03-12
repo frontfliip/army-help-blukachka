@@ -1,5 +1,5 @@
 """
-
+The main file
 """
 import game
 
@@ -50,7 +50,6 @@ volonteer.set_item(volonteer_key)
 volonteer.set_conversation(f"[{volonteer.get_name()}]: Hi there! If you need a key I can give it to you")
 
 
-
 stryi_park.set_character(stranger)
 blockpost.set_character(policeman)
 rinok_squere.set_character(student)
@@ -74,20 +73,19 @@ while play:
 
     inhabitant = current_location.get_character()
     item = current_location.get_item()
-    
+
     if item is not None:
         print("\n")
         print(f"There is a(an) {item.name} here{item.describe()}. You can take it")
-    
+
     if inhabitant is not None:
             print("\n")
             inhabitant.describe()
             if inhabitant.item is not None:
                 print("\n")
                 print(f"He has a {inhabitant.item.get_name()}{inhabitant.item.describe()}")
-    
-    command = input("> ")
 
+    command = input("> ")
 
     if command in ["north", "south", "east", "west"]:
         # Move in the given direction
@@ -103,7 +101,7 @@ while play:
             current_location = blockpost
     elif command == "talk":
         # Talk to the inhabitant
-        
+
             if inhabitant is not None:
                 if type(inhabitant).__name__ == "Student" and check_student == 0:
                     stryi_park.link_loc(ucu, "???")
