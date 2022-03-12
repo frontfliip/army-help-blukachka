@@ -9,7 +9,7 @@ ucu = game.Location("UCU", "A great university that is always ready to help")
 volonteer_centre = game.Location("Volonteer centre", "A place where all volonteers come together")
 rinok_squere = game.Location("Rinok Squere", "The centre of Lviv")
 blockpost = game.Location("Blockpost", "Here policemen have to check your documents and permissions")
-destenation = game.Location("Destenation", "Place where help is needed")
+destination = game.Location("Destination", "Place where help is needed")
 
 stryi_park.link_loc(rinok_squere, "south")
 stryi_park.link_loc(volonteer_centre, "west")
@@ -19,7 +19,7 @@ volonteer_centre.link_loc(stryi_park, "east")
 rinok_squere.link_loc(volonteer_centre, "east")
 rinok_squere.link_loc(stryi_park, "north")
 blockpost.link_loc(volonteer_centre, "west")
-volonteer_centre.link_loc(destenation, "north")
+volonteer_centre.link_loc(destination, "north")
 
 
 volonteer_key = game.Item("volonteer key", "key that allows to go to the volonteer centre")
@@ -61,7 +61,7 @@ backpack = []
 check_student = 0
 check_stranger = 0
 print("\n")
-print("Hi, your mission is to find three important items(apple, helmet, body armor) and bring them to destenation. All found items will be in your backpack")
+print("Hi, your mission is to find three important items(apple, helmet, body armor) and bring them to destination. All found items will be in your backpack")
 print("U're able to talk with characters, take their items or take items on different locations. And also move through locations")
 print("Good luck!")
 while play:
@@ -91,7 +91,7 @@ while play:
         # Move in the given direction
         back = current_location
         current_location = current_location.move(command)
-        if current_location == destenation:
+        if current_location == destination:
             if helmet.get_name() not in backpack or apple.get_name() not in backpack or body_armor.get_name() not in backpack:
                 print("\n")
                 print("Are you sure you've found all necesary things?")
